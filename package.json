@@ -21,7 +21,8 @@
     "grunt-php": "*",
     "jeet": "*",
     "rupture": "^0.7.1",
-    "stylus": "^0.54.5"
+    "stylus": "^0.54.5",
+    "uglifyjs-webpack-plugin": "^1.1.8"
   },
   "dependencies": {
     "babel-core": "^6.11.4",
