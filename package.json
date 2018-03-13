@@ -12,6 +12,10 @@
     "node": ">=8.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.40",
+    "@babel/core": "^7.0.0-beta.40",
+    "@babel/preset-env": "^7.0.0-beta.40",
+    "babel-loader": "^8.0.0-beta",
     "grunt": "*",
     "grunt-contrib-concat": "*",
     "grunt-contrib-cssmin": "^1.0.2",
@@ -23,14 +27,12 @@
     "modernizr-webpack-plugin": "^1.0.6",
     "rupture": "^0.7.1",
     "stylus": "^0.54.5",
-    "uglifyjs-webpack-plugin": "^1.1.8"
+    "uglifyjs-webpack-plugin": "^1.1.8",
+    "webpack": "^4.1.1",
+    "normalize.css": "^7.0.0",
+    "webpack-cli": "^2.0.11"
   },
   "dependencies": {
-    "babel-core": "^6.11.4",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.1",
-    "normalize.css": "^7.0.0",
-    "viewport-units-buggyfill": "^0.6.2",
-    "webpack": "^3.10.0"
+    "viewport-units-buggyfill": "^0.6.2"
   }
 }
