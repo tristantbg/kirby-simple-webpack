@@ -8,6 +8,9 @@
     "prestart": "rm -rf ../dist",
     "start": "webpack --config ./webpack.config.js --watch --watch-poll -d --progress"
   },
+  "browserslist": [
+    "last 2 versions", "ie >= 11"
+  ],
   "engines": {
     "node": ">=8.0.0"
   },
