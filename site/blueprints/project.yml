@@ -33,10 +33,14 @@ files:
       label: Video external stream link (.m3u8)
       type: url
     videoexternal:
-      label: Video external file link
+      label: Video external file link (.mp4)
       type: url
-    videofile:
-      label: Video File
+    videofilemp4:
+      label: Video File (.mp4)
+      type: select
+      options: videos
+    videofilewebm:
+      label: Video File (.webm)
       type: select
       options: videos
 fields:
