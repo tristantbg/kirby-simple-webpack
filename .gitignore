@@ -1,5 +1,7 @@
 .DS_Store
 Thumbs.db
+yarn.lock
+yarn-error.log
 /content/*
 /lib
 /assets/fonts/*
